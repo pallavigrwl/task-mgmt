@@ -77,7 +77,7 @@ function App() {
         {tasks.map((task) => (
           <tr key={task.id}>
             <td align='center'>
-              <strong>{task.title}</strong>
+              {task.title}
               </td><td align='center'>
               <p>{task.description}</p>
               </td><td align='center'>
